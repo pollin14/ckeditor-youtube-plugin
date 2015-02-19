@@ -19,7 +19,7 @@
 				label : editor.lang.youtube.button,
 				toolbar : 'insert',
 				command : 'youtube',
-				icon : this.path + 'images/icon.png'
+				icon : '../ckeditor-youtube-plugin/youtube/images/icon.png'
 			});
 
 			CKEDITOR.dialog.add( 'youtube', function ( instance )
