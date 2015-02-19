@@ -1,3 +1,25 @@
+
+Changes by Pollin14
+===================
+
+* I changed the icon's url to work with bower out of box. The original url points to the *ckeditor* directory however
+the image are in *ckeditor-youtube-plugin/youtube*. Then, after you run the `bower install`, you need copy the plugin
+to *ckeditor* directory. It is not acceptable.
+
+* I added a translation to spanish (Español).
+
+Add to bower
+============
+
+Add the repository to the bower's dependencies.
+
+````
+"dependencies": {
+    "ckeditor-youtube-plugin": "git@https://github.com/pollin14/ckeditor-youtube-plugin.git#*"
+}
+````
+
+
 Youtube Plugin for CKEditor 4
 =============================
 
