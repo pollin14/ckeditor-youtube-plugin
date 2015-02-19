@@ -15,7 +15,7 @@ Add the repository to the bower's dependencies.
 
 ````
 "dependencies": {
-    "ckeditor-youtube-plugin": "git@https://github.com/pollin14/ckeditor-youtube-plugin.git#*"
+    "ckeditor-youtube-plugin": "https://github.com/pollin14/ckeditor-youtube-plugin.git"
 }
 ````
 
